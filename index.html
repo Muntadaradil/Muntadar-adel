@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Homepage</title>
+    <!-- Include the icon font library, such as Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- We'll create this stylesheet later -->
+    <link rel="stylesheet" href="slidshow.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Muntadar adel</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="container slider">
+            <!--  Challenge: Fix the image path for each slide. -->
+            <!-- Slide 1 -->
+            <div class="padding slide">
+                <img src="images/2b-wallpaper-3840x2160.jpg" alt="Project 1">
+                <div class="slide-content">
+                    <h3>The gamer girl</h3>
+                    <p>A gamer girl is someone who has a genuine passion for video games, actively participating in
+                        gaming communities, and enjoying various genres and platforms. She may be a casual or dedicated
+                        gamer, finding joy in gaming as a form of entertainment, relaxation, or even competition. Gamer
+                        girls can be found playing a wide range of games, from action and adventure titles to
+                        role-playing games (RPGs), first-person shooters, strategy games, and more.</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="padding slide">
+                <img src="images/watch_dogs_legion_2020_video_game_sabine_brandt-wallpaper-3840x2160.jpg"
+                    alt="Project 2">
+                <div class="slide-content">
+                    <h3>watch dogs</h3>
+                    <p>Watch Dogs 2 invites players to explore the vibrant and technologically advanced city of San
+                        Francisco, where they take on the role of Marcus Holloway, a young and skilled hacker with a
+                        passion for justice. The game is set in a near-future world where technology controls almost
+                        every aspect of daily life, and players must navigate a complex network of interconnected
+                        devices to uncover corruption and criminal activities.</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="padding slide">
+                <img src="images/wallhaven-72d3me.png" alt="Project 3">
+                <div class="slide-content">
+                    <h3>Cute girl</h3>
+                    <p>A cute girl possesses a combination of physical and behavioral traits that evoke feelings of
+                        warmth, affection, and admiration. These traits can include a sweet and friendly demeanor, a
+                        charming smile, expressive eyes, and an overall pleasant and approachable appearance. Often, a
+                        cute girl may have a youthful and innocent quality that adds to her charm.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dot-navigation">
+            <!-- Dot navigation will be dynamically generated using JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="container about-content">
+            <img src="images/symbol.png" alt="Muntadar's Picture">
+            <p class='box'>
+                Hi there! I'm Muntadar, a passionate web developer with a love for building
+                awesome websites. I enjoy experimenting with new technologies and
+                turning ideas into reality. When I'm not coding, you can find me exploring
+                nature or reading a good book.
+            </p>
+            <p>
+                Feel free to check out my <a href="path/to/your/resume.pdf" target="_blank">resume</a>
+                to learn more about my professional experience and skills.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class='  container'>
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Proficient in writing semantic and accessible HTML code for building web pages.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Skilled in styling web pages with CSS and creating responsive layouts.</p>
+                <div class="progress-bar">
+                      <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Familiar with JavaScript and building interactive features for websites.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;">70%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/your-handle" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/your-handle" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2023 Guil H. All rights reserved.</p>
+    </footer>
+
+
+
+    <script src='script.js'></script>
+</body>
+
+</html>
